@@ -1,10 +1,13 @@
 /**  Basic Page CSS **/
 body {
   font-weight: 200;
-  background-color: #337ab7;
-  padding: 20px 0px;
+  background-color: #3f82ca;
+  padding: 0px;
 }
-
+header {
+  padding: 40px 0px;
+  text-transform: uppercase;
+}
 header a,
 footer a {
   color: white;
@@ -17,6 +20,6 @@ footer {
 
 .bg-primary,
 .btn-primary {
-  background-color: #377bb5 !important;
+  background-color: #28557b !important;
   border: inherit;
 }

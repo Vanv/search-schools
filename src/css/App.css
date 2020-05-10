@@ -1,12 +1,17 @@
-.add-appointment .card-body {
-  display: none;
+.bg-white .container {
+  padding: 10px;
 }
 
 .apt-addheading {
   cursor: pointer;
   user-select: none;
 }
-
+.input-group {
+  margin: 30px 0px;
+}
+#search-schools {
+  padding: 20px;
+}
 .school-list {
   font-size: 1.1em;
 }
@@ -19,16 +24,19 @@
   border-bottom: none;
 }
 
-.school-list .pet-name {
+.school-list .school-name {
   font-weight: 600;
   color: #337ab7;
   font-size: 1.3em;
   line-height: 100%;
 }
-
-.school-list .label-item {
+.suburb {
   font-weight: 600;
+}
+.school-list .label-item {
+  font-weight: 400;
   color: #667b82;
+  text-transform: capitalize;
 }
 
 .school-list .school-url {
@@ -43,4 +51,14 @@
 .dropdown-item.active,
 .dropdown-item:active {
   background-color: #a9aeb2;
+}
+
+@media (max-width: 768px) {
+  .school-url {
+    text-align: left !important;
+    padding: 10px 0px;
+  }
+  .school-list .school-name {
+    padding: 0px;
+  }
 }

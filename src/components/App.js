@@ -9,12 +9,24 @@ class App extends Component {
     super();
     this.state = {
       allSchools: [],
-      orderBy: 'SchoolName',
+      orderBy: 'Suburb',
       orderDir: 'asc',
+      queryText: '',
     };
+    this.changeOrder = this.changeOrder.bind(this);
+    this.searchSchools = this.searchSchools.bind(this);
+  }
+  changeOrder(order, dir) {
+    this.setState({
+      orderBy: order,
+      orderDir: dir
+    });
+  }
+  searchSchools(query) {
+    this.setState({ queryText: query });
   }
   componentDidMount() {
-    fetch('./schooldata.json')
+    fetch('./data.json')
     .then(response => response.json())
     .then(result => {
       const schools = result.map(item => {
@@ -25,6 +37,8 @@ class App extends Component {
       });
     });
   }
+
+
   render() {
     let order;
     let filteredSchools = this.state.allSchools;
@@ -34,14 +48,24 @@ class App extends Component {
       order = -1;
     }
 
-    filteredSchools.sort((a,b) => {
-      if (a[this.state.orderBy].toLowerCase() <
+    filteredSchools = filteredSchools.sort((a,b) => {
+      if (
+        a[this.state.orderBy].toLowerCase() <
         b[this.state.orderBy].toLowerCase()
       ) {
         return -1 * order;
       } else {
         return 1 * order;
       }
+    }).filter(eachItem => {
+      return (
+        eachItem['Suburb']
+        .toLowerCase()
+        .includes(this.state.queryText.toLowerCase()) ||
+        eachItem['SchoolName']
+        .toLowerCase()
+        .includes(this.state.queryText.toLowerCase())
+      );
     })
 
 
@@ -53,7 +77,12 @@ class App extends Component {
               <div className="container">
 
                 {/*<div>Add schools</div>*/}
-                <SearchSchools />
+                <SearchSchools
+                  orderBy={this.state.orderBy}
+                  orderDir={this.state.orderDir}
+                  changeOrder={this.changeOrder}
+                  searchSchools={this.searchSchools}
+                />
                 <ListSchools schoolList={filteredSchools}/>
               </div>
             </div>

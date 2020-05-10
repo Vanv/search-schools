@@ -1,87 +1,215 @@
 [
   {
-    "schoolName": "Adamstown Public School",
-    "address": "112, short street, Adamstown",
-    "website": "adamtown.com.au",
-    "suburb": "Adamstown"
+    "SchoolName": "Adamstown Public School",
+    "AddressList": [{
+      "address": "112, short street, Adamstown",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "adamtown.com.au",
+    "Suburb": "Adamstown"
   },
   {
-    "schoolName": "Albion Park School",
-    "address": "5, Albion Place, Albion",
-    "website": "albionschool.com.au",
-    "suburb": "Adamstown"
+    "SchoolName": "Albion Park School",
+    "AddressList": [{
+      "address": "112, short street, Adamstown",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "albionschool.com.au",
+    "Suburb": "Adamstown"
   },
   {
-    "schoolName": "Adamstown Public School",
-    "address": "112, short street, Adamstown",
-    "website": "adamtown.com.au",
-    "suburb": "Adamstown"
+    "SchoolName":  "Altona College",
+    "AddressList": [{
+      "address": "112, short street, Adamstown",
+      "City": "Altona",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://www.altonap9college.Vic.edu.au",
+    "Suburb": "Adamstown"
   },
   {
-    "schoolName": "Adamstown Public School",
-    "address": "112, short street, Adamstown",
-    "website": "adamtown.com.au",
-    "suburb": "Adamstown"
+    "SchoolName": "Benalla P-12 College-Clarke Street Campus",
+    "AddressList": [{
+      "address": "112, short street, Parkdale",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "adamtown.com.au",
+    "Suburb": "Parkdale"
   },
   {
-    "schoolName": "Adamstown Public School",
-    "address": "112, short street, Adamstown",
-    "website": "adamtown.com.au",
-    "suburb": "Adamstown"
+    "SchoolName": "Benalla P-12 College-Lake Nillacootie Camp",
+    "AddressList": [{
+      "address": "112, short street, Adamstown",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "adamtown.com.au",
+    "Suburb": "Patterson Lakes"
   },
   {
-    "schoolName": "Adamstown Public School",
-    "address": "112, short street, Adamstown",
-    "website": "adamtown.com.au",
-    "suburb": "Adamstown"
+    "SchoolName": "Laverton P-12 College",
+    "AddressList": [{
+      "address": "112, short street, Adamstown",
+      "City": "Laverton",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://www.lavertonsc.Vic.edu.au",
+    "Suburb": "Laverton"
   },
   {
-    "schoolName": "Adamstown Public School",
-    "address": "112, short street, Adamstown",
-    "website": "adamtown.com.au",
-    "suburb": "Adamstown"
+    "SchoolName": "Murrayville Community College",
+    "AddressList": [{
+      "address": "100, Murrayville street, Murrayville",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://www.murrayvillecc.Vic.edu.au",
+    "Suburb": "Murrayville"
   },
   {
-    "schoolName": "Adamstown Public School",
-    "address": "112, short street, Adamstown",
-    "website": "adamtown.com.au",
-    "suburb": "Adamstown"
+    "SchoolName": "Murtoa College",
+    "AddressList": [{
+      "address": "4, college road, Murtoa",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://www.murtoasc.vic.edu.au",
+    "Suburb": "Murtoa"
   },
   {
-    "schoolName": "Adamstown Public School",
-    "address": "112, short street, Adamstown",
-    "website": "adamtown.com.au",
-    "suburb": "Adamstown"
+    "SchoolName": "Nhill College",
+    "AddressList": [{
+      "address": "Nihil street, Nhill",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://www.nhillcollege.vic.edu.au",
+    "Suburb": "Nhill"
   },
   {
-    "schoolName": "Adamstown Public School",
-    "address": "112, short street, Adamstown",
-    "website": "adamtown.com.au",
-    "suburb": "Adamstown"
+    "SchoolName": "Outdoor School",
+    "AddressList": [{
+      "address": "112, short street, BOGONG",
+      "City": "BOGONG",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://www.outdoorschool.vic.edu.au/",
+    "Suburb": "Bogong"
   },
   {
-    "schoolName": "Adamstown Public School",
-    "address": "112, short street, Adamstown",
-    "website": "adamtown.com.au",
-    "suburb": "Adamstown"
+    "SchoolName": "Ouyen P-12 College",
+    "AddressList": [{
+      "address": "112, short street, Ouyen",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://ouyenp12college.vic.edu.au/",
+    "Suburb": "Ouyen"
   },
   {
-    "schoolName": "Adamstown Public School",
-    "address": "112, short street, Adamstown",
-    "website": "adamtown.com.au",
-    "suburb": "Adamstown"
+    "SchoolName": "Phoenix P-12 Community College",
+    "AddressList": [{
+      "address": "112, short street, Sebastopol",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://www.phoenix.vic.edu.au/",
+    "Suburb": "Sebastopol"
   },
   {
-    "schoolName": "Adamstown Public School",
-    "address": "112, short street, Adamstown",
-    "website": "adamtown.com.au",
-    "suburb": "Adamstown"
+    "SchoolName": "Point Cook Prep - Year 9 College",
+    "AddressList": [{
+      "address": "112, short street, Adamstown",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://www.pcc.vic.edu.au/",
+    "Suburb": "Adamstown"
   },
   {
-    "schoolName": "Adamstown Public School",
-    "address": "112, short street, Adamstown",
-    "website": "adamtown.com.au",
-    "suburb": "Adamstown"
+    "SchoolName": "Alamand College",
+    "AddressList": [{
+      "address": "112, short street, Killmont",
+      "City": "Killmont",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://www.alamandacollege.Vic.edu.au/",
+    "Suburb": "Killmont"
+  },
+  {
+    "SchoolName": "Murrayville Community College",
+    "AddressList": [{
+      "address": "100, Murrayville street, Murrayville",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://www.murrayvillecc.Vic.edu.au",
+    "Suburb": "Murrayville"
+  },
+  {
+    "SchoolName": "Ouyen P-12 College",
+    "AddressList": [{
+      "address": "112, short street, Ouyen",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://ouyenp12college.vic.edu.au/",
+    "Suburb": "Ouyen"
+  },
+
+  {
+    "SchoolName": "Nhill College",
+    "AddressList": [{
+      "address": "Nihil street, Nhill",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://www.nhillcollege.vic.edu.au",
+    "Suburb": "Nhill"
+  },
+  {
+    "SchoolName": "Outdoor School",
+    "AddressList": [{
+      "address": "112, short street, BOGONG",
+      "City": "BOGONG",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://www.outdoorschool.vic.edu.au/",
+    "Suburb": "Bogong"
+  },
+
+  {
+    "SchoolName": "Phoenix P-12 Community College",
+    "AddressList": [{
+      "address": "112, short street, Sebastopol",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://www.phoenix.vic.edu.au/",
+    "Suburb": "Sebastopol"
+  },
+  {
+    "SchoolName": "Point Cook Prep - Year 9 College",
+    "AddressList": [{
+      "address": "112, short street, Adamstown",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://www.pcc.vic.edu.au/",
+    "Suburb": "Adamstown"
+  },
+  {
+    "SchoolName": "Murtoa College",
+    "AddressList": [{
+      "address": "4, college road, Murtoa",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://www.murtoasc.vic.edu.au",
+    "Suburb": "Murtoa"
   }
 
 ]
