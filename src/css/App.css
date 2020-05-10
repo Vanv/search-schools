@@ -50,9 +50,14 @@
 
 .dropdown-item.active,
 .dropdown-item:active {
-  background-color: #a9aeb2;
+  background-color: #2694ab;
 }
-
+a {
+  color: #fe5f55;
+}
+.form-control {
+  border-color: #a64942;
+}
 @media (max-width: 768px) {
   .school-url {
     text-align: left !important;

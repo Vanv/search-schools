@@ -10,24 +10,44 @@
     "Suburb": "Adamstown"
   },
   {
+    "SchoolName": "Admorton School",
+    "AddressList": [{
+      "address": "112, short street, Admorton",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "ardmore.com.au",
+    "Suburb": "Admorton"
+  },
+  {
+    "SchoolName": "Ardmore Primary School",
+    "AddressList": [{
+      "address": "112, short street, Admorton",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "ardmore.com.au",
+    "Suburb": "Admorton"
+  },
+  {
     "SchoolName": "Albion Park School",
     "AddressList": [{
-      "address": "112, short street, Adamstown",
+      "address": "112, short street, Albion",
       "City": "Point Cook",
       "StateProvince": "Vic"
     }],
     "SchoolURL": "albionschool.com.au",
-    "Suburb": "Adamstown"
+    "Suburb": "Albion"
   },
   {
     "SchoolName":  "Altona College",
     "AddressList": [{
-      "address": "112, short street, Adamstown",
+      "address": "112, short street, Altona",
       "City": "Altona",
       "StateProvince": "Vic"
     }],
     "SchoolURL": "http://www.altonap9college.Vic.edu.au",
-    "Suburb": "Adamstown"
+    "Suburb": "Altona"
   },
   {
     "SchoolName": "Benalla P-12 College-Clarke Street Campus",
@@ -46,7 +66,7 @@
       "City": "Point Cook",
       "StateProvince": "Vic"
     }],
-    "SchoolURL": "adamtown.com.au",
+    "SchoolURL": "benalla.com.au",
     "Suburb": "Patterson Lakes"
   },
   {
@@ -90,7 +110,7 @@
     "Suburb": "Nhill"
   },
   {
-    "SchoolName": "Outdoor School",
+    "SchoolName": "Royal Intermediate School",
     "AddressList": [{
       "address": "112, short street, BOGONG",
       "City": "BOGONG",
@@ -122,12 +142,12 @@
   {
     "SchoolName": "Point Cook Prep - Year 9 College",
     "AddressList": [{
-      "address": "112, short street, Adamstown",
+      "address": "112, short street, Weetangera",
       "City": "Point Cook",
       "StateProvince": "Vic"
     }],
     "SchoolURL": "http://www.pcc.vic.edu.au/",
-    "Suburb": "Adamstown"
+    "Suburb": "Weetangera"
   },
   {
     "SchoolName": "Alamand College",
@@ -142,22 +162,22 @@
   {
     "SchoolName": "Murrayville Community College",
     "AddressList": [{
-      "address": "100, Murrayville street, Murrayville",
+      "address": "100, Murrayville street, Weetangera",
       "City": "Point Cook",
       "StateProvince": "Vic"
     }],
     "SchoolURL": "http://www.murrayvillecc.Vic.edu.au",
-    "Suburb": "Murrayville"
+    "Suburb": "Weetangera"
   },
   {
     "SchoolName": "Ouyen P-12 College",
     "AddressList": [{
-      "address": "112, short street, Ouyen",
+      "address": "112, short street, Melba",
       "City": "Point Cook",
       "StateProvince": "Vic"
     }],
     "SchoolURL": "http://ouyenp12college.vic.edu.au/",
-    "Suburb": "Ouyen"
+    "Suburb": "Melba"
   },
 
   {
@@ -180,7 +200,6 @@
     "SchoolURL": "http://www.outdoorschool.vic.edu.au/",
     "Suburb": "Bogong"
   },
-
   {
     "SchoolName": "Phoenix P-12 Community College",
     "AddressList": [{
@@ -194,12 +213,12 @@
   {
     "SchoolName": "Point Cook Prep - Year 9 College",
     "AddressList": [{
-      "address": "112, short street, Adamstown",
+      "address": "112, short street, Point Cook",
       "City": "Point Cook",
       "StateProvince": "Vic"
     }],
     "SchoolURL": "http://www.pcc.vic.edu.au/",
-    "Suburb": "Adamstown"
+    "Suburb": "Point Cook"
   },
   {
     "SchoolName": "Murtoa College",
@@ -210,6 +229,69 @@
     }],
     "SchoolURL": "http://www.murtoasc.vic.edu.au",
     "Suburb": "Murtoa"
+  },
+
+
+  {
+    "SchoolName": "Mount Rogers Primary School",
+    "AddressList": [{
+      "address": "112, short street, Melba",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://www.mountrogers.edu.au/",
+    "Suburb": "Melba"
+  },
+  {
+    "SchoolName": "Palmerston District Primary School",
+    "AddressList": [{
+      "address": "112, short street, Palmerston",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://www.pcc.vic.edu.au/",
+    "Suburb": "Palmerston"
+  },
+  {
+    "SchoolName": "Taylor Primary School",
+    "AddressList": [{
+      "address": "4, college road, Melba",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://www.murtoasc.vic.edu.au",
+    "Suburb": "Melba"
+  },
+  {
+    "SchoolName": "Weetangera Primary School",
+    "AddressList": [{
+      "address": "4, college road, Weetangera",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://www.Weetangera.edu.au",
+    "Suburb": "Weetangera"
+  },
+  {
+    "SchoolName": "Palmero District Primary School",
+    "AddressList": [{
+      "address": "112, short street, Palmerston",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://www.pcc.vic.edu.au/",
+    "Suburb": "Palmerston"
+  },
+  {
+    "SchoolName": "Forrest Primary School",
+    "AddressList": [{
+      "address": "112, short street, Palmerston",
+      "City": "Point Cook",
+      "StateProvince": "Vic"
+    }],
+    "SchoolURL": "http://www.pcc.vic.edu.au/",
+    "Suburb": "Palmerston"
   }
+
 
 ]

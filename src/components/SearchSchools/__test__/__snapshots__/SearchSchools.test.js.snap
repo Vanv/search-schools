@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="search-schools row justify-content-center my-4"
+  data-testid="searchschools"
+>
+  <div
+    className="col-md-10"
+  >
+    <div
+      className="input-group"
+    >
+      <input
+        className="form-control"
+        id="search-schools"
+        onChange={[Function]}
+        placeholder="Search schools by suburb"
+        type="text"
+      />
+      <div
+        className="input-group-append"
+      >
+        <button
+          aria-expanded="false"
+          aria-haspopup="true"
+          className="btn btn-primary dropdown-toggle"
+          data-toggle="dropdown"
+          type="button"
+        >
+          Sort by: 
+          <span
+            className="caret"
+          />
+        </button>
+        <div
+          className="sort-menu dropdown-menu dropdown-menu-right"
+        >
+          <button
+            className="sort-by dropdown-item "
+            href="#"
+            onClick={[Function]}
+          >
+            Suburb
+          </button>
+          <button
+            className="sort-by dropdown-item "
+            href="#"
+            onClick={[Function]}
+          >
+            School Name
+          </button>
+          <div
+            className="dropdown-divider"
+            role="separator"
+          />
+          <button
+            className="sort-by dropdown-item "
+            href="#"
+            onClick={[Function]}
+          >
+            Asc
+          </button>
+          <button
+            className="sort-by dropdown-item "
+            href="#"
+            onClick={[Function]}
+          >
+            Desc
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

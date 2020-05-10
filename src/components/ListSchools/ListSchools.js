@@ -5,7 +5,7 @@ class ListSchools extends Component {
   render() {
 
     return(
-      <div className="school-list item-list mb-3">
+      <div data-testid="listschools" className="school-list item-list mb-3">
         { this.props.schoolList.map(item => (
           <div className="school-item col media py-3" key={item.Id}>
             <div className="school-info media-body">

@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class SearchSchools extends Component {
   render() {
     return(
-      <div className="search-appointments row justify-content-center my-4">
+      <div data-testid="searchschools" className="search-schools row justify-content-center my-4">
         <div className="col-md-10">
           <div className="input-group">
             <input

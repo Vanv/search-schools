@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../css/App.css';
-import SearchSchools from './SearchSchools';
-import ListSchools from './ListSchools';
+import SearchSchools from './SearchSchools/SearchSchools';
+import ListSchools from './ListSchools/ListSchools';
 
 
 class App extends Component {
@@ -75,7 +75,6 @@ class App extends Component {
           <div className="row">
             <div className="col-md-12 bg-white">
               <div className="container">
-
                 {/*<div>Add schools</div>*/}
                 <SearchSchools
                   orderBy={this.state.orderBy}
